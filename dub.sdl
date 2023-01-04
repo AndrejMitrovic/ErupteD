@@ -29,7 +29,7 @@ subPackage {
     targetType          "executable"
     sourceFiles         "examples/compute/compute.d"
     dependency          "erupted"   path = "."
-    buildOptions        "betterC"
+    #buildOptions        "betterC"
     libs                "libcmt"
 //  libs                "msvcrt"
 //  lflags "/LTCG" "/NODEFAULTLIB:LIBCMT" "/NODEFAULTLIB:LIBVCRUNTIME"
